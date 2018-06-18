@@ -38,6 +38,7 @@
 	$ git config --global user.email "email@example.com"
 	$ git commit -m "first commit" 
 	$ git remote add origin git@github.com:guzicheng90/HelloWorld.git
+	$ git push -u origin master
 
 ***以下是官方给出提交例子***
 echo "# HelloWorld" >> README.md
