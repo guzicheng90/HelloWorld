@@ -1,4 +1,13 @@
-﻿***可参考网址：http://www.runoob.com/w3cnote/git-guide.html***
+﻿***可参考网址***
+1、github部署安装教程：http://www.runoob.com/w3cnote/git-guide.html
+2、github的分支操作：https://www.cnblogs.com/51kata/p/5965791.html
+
+#####个人理解######
+（1）github有分支概念，每一个操作提交/更新都针对于分支而言。如已经merge后的代码可以从master下获取，如下
+	git branch   //查看所有分支	
+	git checkout master	//切换分支
+	git pull	//获取更新
+（2）很奇怪的是，某晚提交分支想merge时按钮无法点，第二天进去看出现merge按钮。待研究
 
 1、登录/注册账号：https://github.com/
 
@@ -43,13 +52,13 @@
 	$ git remote add origin git@github.com:guzicheng90/HelloWorld.git
 	$ git push -u origin master
 
-***以下是官方给出提交例子***
-echo "# HelloWorld" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:guzicheng90/HelloWorld.git
-git push -u origin master
+	***以下是官方给出提交例子***
+	echo "# HelloWorld" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin git@github.com:guzicheng90/HelloWorld.git
+	git push -u origin master
 
 11、修改完成后更新提交
 	在自己本地 git clone 这个项目，修改bug
